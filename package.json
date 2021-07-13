@@ -1,0 +1,26 @@
+{
+  "name": "gec-admin-front-develop",
+  "version": "1.0.0",
+  "description": "gec admin front develop",
+  "author": "Choi Kyungwoo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "nuxt-dropzone": "^1.0.4",
+    "quill-image-drop-module": "^1.0.3",
+    "quill-image-resize-module": "^3.0.0",
+    "vue2-editor": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
